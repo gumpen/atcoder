@@ -10,6 +10,12 @@
 1以上N以下の整数のうち、最も2で割れる回数が多いものというのは、
 1以上N以下の整数のうち、2の累乗として最大である値
 
+
+ちなみに、累乗の英訳はpower
+Goのmath.Pow()は
+func Pow(x, y float64) float64
+<https://golang.org/pkg/math/#Pow>
+
 ## リンク
 
 [素因数分解](https://www.studyplus.jp/391)
