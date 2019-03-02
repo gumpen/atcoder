@@ -2,6 +2,8 @@
 
 ## 複数入力の取り方
 
+### bufioを使う
+
 ```go
 var sc = bufio.NewScanner(os.Stdin)
 ```
@@ -24,6 +26,10 @@ N, _ := strconv.Atoi(read())
 ```
 
 別途書いておいたread()で1文字ずつ読み出す
+
+### fmt.Scan()で取り切る
+
+上記のようなことをしなくともfmt.Scanで取れる
 
 ## ソート
 
