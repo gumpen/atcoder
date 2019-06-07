@@ -1,5 +1,6 @@
 ## 総括
 配列データの受け取りの際に非常に遅くなっている可能性がある
+→大きな空白区切りの入力データを高速で処理する方法→3
 
 ## かかった時間
 約1h
@@ -13,3 +14,6 @@
 
 ## 1
 不要な配列を消したが対して早くはなっていない
+
+### atcoder
+https://atcoder.jp/contests/abc048/submissions?f.Task=arc064_a&f.Language=3013&f.Status=AC&f.User=
